@@ -3,6 +3,8 @@ kind: Kustomization
 resources:
   - ../../base/
 
+namePrefix: kustomize-dev
+
 replicas:
   - name: myapp
     count: 6
