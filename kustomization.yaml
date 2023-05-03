@@ -6,3 +6,6 @@ namePrefix: kustomize-
 resources:
   - deployment.yaml
   - service.yaml
+
+commonAnnotations:
+  channel: justmeandopensource
