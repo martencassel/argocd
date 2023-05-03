@@ -7,4 +7,4 @@ namePrefix: kustomize-prod
 
 replicas:
   - name: myapp
-    count: 12
+    count: 1

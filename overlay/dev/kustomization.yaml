@@ -7,7 +7,7 @@ namePrefix: kustomize-dev
 
 replicas:
   - name: myapp
-    count: 6
+    count: 1
 
 secretGenerator:
 - name: username
