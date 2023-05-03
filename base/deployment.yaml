@@ -17,3 +17,14 @@ spec:
           image: nginx:latest
           ports:
             - containerPort: 80
+          env:
+          - name: USERNAME
+            valueFrom:
+              secretKeyRef:
+                name: username
+                key: username
+          - name: REGION
+            valueFrom:
+              secretKeyRef:
+                name: region
+                key: region
